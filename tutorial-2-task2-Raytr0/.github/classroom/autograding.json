@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Task 2.1",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Task 2.2",
+      "setup": "",
+      "run": "node callbackFunctions.js",
+      "input": "",
+      "output": "   *\r\n  ***\r\n * A *\r\n*******\r\n\r\n   *\r\n  ***\r\n * B *\r\n*******\r\n\r\n   *\r\n  ***\r\n * C *\r\n*******\r\n\r\n*****\r\n* A *\r\n*****\r\n\r\n*****\r\n* B *\r\n*****\r\n\r\n*****\r\n* C *\r\n*****\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

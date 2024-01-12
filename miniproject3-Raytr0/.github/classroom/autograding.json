@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "MiniProject3_Test",
+      "setup": "",
+      "run": "cat result.txt",
+      "input": "",
+      "output": "{\"Synonyms\":22,\"Related\":37,\"Near Antonyms\":3,\"Antonyms\":5}",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

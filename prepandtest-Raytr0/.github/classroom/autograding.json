@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "EnvSetup",
+      "setup": "",
+      "run": "node hello.js",
+      "input": "",
+      "output": "Hello GitHub Classroom",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

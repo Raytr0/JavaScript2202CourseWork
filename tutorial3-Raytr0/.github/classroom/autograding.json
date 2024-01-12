@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Tutorial3_test",
+      "setup": "",
+      "run": "node Tutorial_3.js",
+      "input": "",
+      "output": "temperature = 5 , precipitation = 7 , humidity = 90, numProp=3\r\ntemperature = 0 , precipitation = 1 , humidity = 50, numProp=3\r\ntemperature = 17 , precipitation = 0 , humidity = 0, numProp=3\r\ntemperature = 0 , precipitation = 0 , humidity = 0, numProp=3\r\ntemperature = 5 , precipitation = 4 , humidity = 60, numProp=3\r\ntemperature = 10 , precipitation = 0 , humidity = 0, numProp=3\r\ntemperature = 8 , precipitation = 5 , humidity = 55, numProp=3\r\ntemperature = 0 , precipitation = 0 , humidity = 0, numProp=3\r\ntemperature = 9 , precipitation = 0 , humidity = 0, numProp=3\r\ntemperature = 0 , precipitation = 0 , humidity = 50, numProp=3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

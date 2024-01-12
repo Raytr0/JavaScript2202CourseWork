@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Structure",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Output",
+      "setup": "",
+      "run": "node AppointmentProcess.js",
+      "input": "",
+      "output": "An appointment has been scheduled for John Smith on Jan. 10th\r\nThe following pre-procedure instructions have been provided to John Smith: Drink 3 glasses of water at least 1 hour before the procedure\r\nAn appointment has been scheduled for John Smith on Feb. 1st\r\nJohn Smith's appointment's main complaint has been recorded as: Persistant headaches\r\nAn appointment has been scheduled for Alice Wonder on Mar. 10th\r\nThe following pre-procedure instructions have been provided to Alice Wonder: Fast 12h prior to your appointment\r\nAn appointment has been scheduled for Alice Wonder on Apr. 1st\r\nAlice Wonder's appointment's main complaint has been recorded as: Yearly physical",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

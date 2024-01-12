@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Versatility",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Output",
+      "setup": "",
+      "run": "node movieAnalysis.js ",
+      "input": "",
+      "output": "Forrest Gump released in 1994 is the highest rated Romance movie over 2 hour(s) long, with an imdb rating of 8.8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

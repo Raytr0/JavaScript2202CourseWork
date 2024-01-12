@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "constructor_prototype_class",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "constructorOutput",
+      "setup": "",
+      "run": "node constructorFunctions.js",
+      "input": "",
+      "output": "The Fairy monster's strength is 300\r\nThe Werewolf monster attacks >>> \r\nThe sneak attack dealt 35 damage\r\nThe boss attack dealt 40 damage\r\nThe Fairy monster's strength is 225\r\nThe Werewolf monster's strength is 1000\r\nThe Fairy monster attacks >>> \r\nThe flying attack dealt 30 damage\r\nThe surprise attack dealt 25 damage\r\nThe Werewolf monster's strength is 945",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "classOutput",
+      "setup": "",
+      "run": "node classNotation.js",
+      "input": "",
+      "output": "The Fairy monster's strength is 300\r\nThe Werewolf monster attacks >>> \r\nThe sneak attack dealt 35 damage\r\nThe boss attack dealt 40 damage\r\nThe Fairy monster's strength is 225\r\nThe Werewolf monster's strength is 1000\r\nThe Fairy monster attacks >>> \r\nThe flying attack dealt 30 damage\r\nThe surprise attack dealt 25 damage\r\nThe Werewolf monster's strength is 945",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
